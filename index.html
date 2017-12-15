@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<!-- Required meta tags-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<!-- Color theme for statusbar -->
+	<meta name="theme-color" content="#2196f3">
+	<!-- Your app title -->
+	<title>FIT Muamalat</title>
+	<!-- Path to Framework7 Library CSS, Material Theme -->
+	<link rel="stylesheet" href="css/framework7.material.css">
+	<!-- Path to Framework7 color related styles, Material Theme -->
+	<link rel="stylesheet" href="css/framework7.material.colors.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<!-- Path to your custom app styles-->
+	<link rel="stylesheet" href="css/my-app.css">
+	<link rel="stylesheet" href="css/default-style.css">
+	<link href="css/css.css" rel="stylesheet" type="text/css">
+	</head>
+<body>
+    <div class="panel-overlay"></div>
+    <div class="views">
+        <div class="view view-main">
+            <div class="pages navbar-fixed">
+                <div data-page="index" class="page">
+                    <div class="page-content">
+                        <div class="image-background">
+                            <img src="img/post3.jpg">
+                        </div>
+                        <div class="row logins">
+                            <div class="col-100 tablet-100">
+                                <div class="content-block row ">
+                                    <div class="col-100 tablet-100">
+                                        <p class="title">
+                                            <!-- <img src="img/logo.jpg"> -->
+											<img src="img/all-logo.jpg">
+                                        </p>
+										<div class="content-block row ">
+										<div class="list-block">
+											<div class="item-content">
+												<div class="item-inner">
+													<div class="item-title label login">Staff ID</div>
+													<div class="item-input">
+														<input type="text" name="staff_id" id="staff_id" placeholder="Staff ID">
+													</div>
+												</div>
+											</div>
+											<div class="item-content">
+												<div class="item-inner">
+													<div class="item-title label login">Password</div>
+													<div class="item-input">
+														<input type="password" name="password" id="password" placeholder="Password">
+													</div>
+												</div>
+											</div>
+                                        </div>
+										</div>
+										<div class="content-block rgst" ><a href="#" class="button" onclick="login()">LOGIN</a></div>
+										<div class="content-block rgst" style="margin: 2px 0;"><a href="#" class="button buttons" onclick="forgot()">Forgot Password</a></div>
+										<div class="content-block rgst" style="margin: 2px 0;"><a href="#" class="button buttons" onclick="reg()">Register</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="picker-modal-overlay"></div>
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <script type="text/javascript" src="js/my-app.js"></script>
+    <script src="js/platform.js" async defer></script>
+</body>
+</html>       
